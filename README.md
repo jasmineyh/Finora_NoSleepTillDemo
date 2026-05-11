@@ -1,5 +1,4 @@
 # Finora  
-## No Sleep Till Demo  
 
 ### AI-Powered Financial Resilience Platform for Malaysian Youth
 
