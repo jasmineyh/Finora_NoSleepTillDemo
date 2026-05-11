@@ -1,11 +1,10 @@
-# Finora
+# Finora  
+## No Sleep Till Demo  
 
 ### AI-Powered Financial Resilience Platform for Malaysian Youth
 
 <p align="center">
-  <strong style="font-size:18px; color:#a855f7;">
-    Built by No Sleep Till Demo
-  </strong>
+  <strong>Built by No Sleep Till Demo</strong>
 </p>
 
 <p align="center">
@@ -14,327 +13,275 @@
   <img src="https://img.shields.io/badge/Focus-Behavioural%20Finance-purple?style=for-the-badge" />
 </p>
 
+<p align="center">
+  GXBank Youth Resilience Challenge Submission
+</p>
+
 ---
 
 ## Overview
 
-**Finora** is an AI-powered financial resilience platform designed to help Malaysian tertiary students and early-career graduates build healthier financial habits through behavioural economics, AI-driven coaching, and proactive financial interventions.
+Finora is an AI-powered financial resilience platform designed to help Malaysian tertiary students and early-career graduates develop sustainable financial habits through behavioural economics, AI-driven coaching, and automated financial guidance.
 
-Developed for the **GXBank Youth Resilience Challenge Hackathon**, Finora transforms banking from a passive balance-checking experience into an intelligent financial habit-building ecosystem.
-
-Rather than only displaying financial data, Finora actively guides users toward:
-
-* smarter spending habits
-* consistent saving behaviour
-* debt prevention
-* long-term financial resilience
+Instead of functioning as a passive banking dashboard, Finora actively guides users toward better financial decisions, consistent saving behaviour, and long-term financial stability.
 
 ---
 
 ## Problem Statement
 
-Many Malaysian youths face challenges such as:
+Many young Malaysians face:
 
-* impulsive spending
-* poor budgeting discipline
-* low savings consistency
-* early debt accumulation
-* lack of long-term financial planning
+- impulsive spending behaviour  
+- weak budgeting discipline  
+- inconsistent savings habits  
+- early debt accumulation  
+- lack of structured financial planning  
 
-While modern banking applications provide transactional visibility, they often lack:
+Existing banking tools primarily focus on transactional visibility, but do not provide proactive behavioural intervention or personalised financial guidance.
 
-* proactive behavioural intervention
-* personalized financial guidance
-* automated habit reinforcement
-* motivational systems for sustained financial discipline
+---
+
+## Solution
 
 Finora addresses this gap by combining:
 
-* AI-powered financial analysis
-* behavioural economics
-* gamification
-* financial coaching
-* savings-oriented nudges
+- artificial intelligence for financial analysis  
+- behavioural economics principles  
+- gamification systems  
+- automated savings logic  
+- predictive financial insights  
 
-to make financial resilience a daily habit rather than an afterthought.
-
----
-
-# Core Features
-
-## Financial DNA Personalization
-
-Finora categorizes users into behavioural financial profiles:
-
-* Planner
-* Spender
-* Avoider
-* Hoarder
-
-The platform dynamically personalizes:
-
-* savings recommendations
-* challenges
-* nudges
-* financial coaching
-* risk alerts
-
-based on the user’s spending behaviour and financial tendencies.
+The platform transforms financial awareness into consistent financial action.
 
 ---
 
-## Financial Health Score
+## Core Features
 
-A dynamic scoring system that evaluates:
+### Financial DNA System
 
-* spending behaviour
-* savings consistency
-* wants vs needs ratio
-* financial resilience indicators
+Users are classified into behavioural financial profiles:
 
-Features:
+- Planner  
+- Spender  
+- Avoider  
+- Hoarder  
 
-* animated score visualization
-* financial condition labels
-* personalized improvement feedback
-* real-time behavioural analysis
-
-Status categories:
-
-* Excellent
-* Good
-* Needs Work
-* At Risk
+Each profile dynamically personalises:
+- financial recommendations  
+- savings strategies  
+- behavioural nudges  
+- challenges and alerts  
 
 ---
 
-## Debt Warning System
+### Financial Health Score
 
-Finora proactively detects potentially risky spending behaviour before debt accumulation occurs.
+A dynamic scoring system that evaluates financial behaviour based on:
 
-The system monitors:
+- spending discipline  
+- savings consistency  
+- wants versus needs ratio  
+- financial resilience indicators  
 
-* food delivery spending
-* subscriptions
-* shopping trends
-* entertainment expenses
+The score provides:
+- real-time evaluation  
+- visual feedback  
+- personalised improvement guidance  
 
-Risk alert tiers:
+---
 
-| Tier   | Description                |
-| ------ | -------------------------- |
-| Tier 1 | Spending Pattern Alert     |
-| Tier 2 | Low Balance Forecast       |
+### Debt Warning System
+
+The system detects early signs of financial risk before debt accumulation occurs.
+
+Monitored categories include:
+- food delivery spending  
+- subscriptions  
+- shopping behaviour  
+- entertainment expenses  
+
+Risk levels:
+
+| Tier | Description |
+|------|-------------|
+| Tier 1 | Spending Pattern Alert |
+| Tier 2 | Low Balance Forecast |
 | Tier 3 | Financial Resilience Alert |
 
 ---
 
-## AI-Powered Maya Coach
+### AI Coach (Maya)
 
-Maya acts as a personalized financial coaching assistant that:
+Maya is a personalised financial assistant that:
 
-* analyzes spending patterns
-* identifies risky financial behaviour
-* recommends corrective actions
-* encourages savings consistency
-* provides behavioural nudges
+- analyses spending patterns  
+- identifies financial risks  
+- generates actionable recommendations  
+- promotes savings behaviour  
+- provides behavioural nudges  
 
-Example insights:
-
-> “Your food delivery spending increased significantly this week.”
-
-> “You can safely allocate RM100 into savings.”
-
-> “Your wants spending may exceed 35% by month end.”
+Example output:
+- Spending trend alerts  
+- Suggested savings allocations  
+- Budget discipline recommendations  
 
 ---
 
-## Monthly Commitment System
+### Monthly Commitment System
 
-Users can create financial commitments such as:
+Users can define financial commitments such as:
 
-* keeping wants spending below 30%
-* saving RM500 monthly
-* reducing food delivery purchases
-* limiting weekend spending
+- reducing discretionary spending  
+- saving monthly targets  
+- limiting specific expense categories  
 
-Features include:
-
-* progress tracking
-* motivational coaching
-* editable goals
-* commitment statuses
-* behavioural reinforcement
+Features:
+- progress tracking  
+- behavioural reinforcement  
+- AI feedback system  
+- status monitoring  
 
 Statuses:
-
-* On Track
-* Warning
-* At Risk
-* Completed
-
----
-
-## Weekly Challenge System
-
-Behaviour-driven financial challenges encourage long-term habit formation.
-
-Examples:
-
-* No GrabFood for 3 days
-* Stay under daily spending limit
-* Save RM100 this week
-* Check account balance daily
-
-Features:
-
-* challenge progress tracking
-* completion rewards
-* resilience XP system
-* motivational feedback
+- On Track  
+- Warning  
+- At Risk  
+- Completed  
 
 ---
 
-## Advanced Spending Analytics
+### Weekly Challenge System
 
-Finora provides intelligent financial insights through:
+A gamified system that builds financial habits through structured challenges such as:
 
-* monthly spending analysis
-* yearly comparison trends
-* category-based expense breakdowns
-* predictive spending analysis
-* savings growth tracking
-* wants vs needs visualization
+- limiting food delivery usage  
+- daily balance tracking  
+- weekly savings goals  
 
-Built using:
-
-* Recharts
-* responsive animated visualizations
+Includes:
+- progress tracking  
+- behavioural reinforcement  
+- completion rewards  
+- habit streaks  
 
 ---
 
-## FD Autopilot
+### Spending Analytics
 
-An AI-assisted fixed deposit recommendation system that helps users optimize savings behaviour.
+Provides deep financial insights:
 
-Features:
-
-* AI-generated FD recommendations
-* maturity tracking
-* projected returns
-* multiple FD portfolio management
-* automated savings suggestions
-
-Example:
-
-> “You can safely allocate RM200 into a 6-month Fixed Deposit.”
+- monthly spending trends  
+- yearly comparisons  
+- category breakdowns  
+- savings behaviour analysis  
+- predictive spending patterns  
 
 ---
 
-## Smart Notification System
+### FD Autopilot
 
-Real-time financial notifications including:
+An AI-powered fixed deposit recommendation system that:
 
-* overspending alerts
-* savings milestones
-* FD opportunities
-* challenge reminders
-* commitment warnings
-* AI coaching prompts
+- suggests FD allocations  
+- tracks maturity timelines  
+- estimates returns  
+- supports multiple FD portfolios  
 
 ---
 
-## Professional Mobile Banking Experience
+### Smart Notifications
 
-Finora delivers a modern fintech-inspired experience through:
+Real-time alerts for:
 
-* premium glassmorphism design
-* mobile-first layouts
-* Framer Motion animations
-* transaction approval flows
-* responsive UI architecture
-* modern banking interactions
-
----
-
-# Technology Stack
-
-| Technology                      | Purpose                  |
-| ------------------------------- | ------------------------ |
-| Base44                          | Application platform     |
-| React                           | Frontend architecture    |
-| Tailwind CSS                    | UI styling               |
-| Framer Motion                   | Animations               |
-| Recharts                        | Financial visualizations |
-| Base44 Entities / Local Storage | Persistence layer        |
+- overspending behaviour  
+- savings milestones  
+- FD opportunities  
+- commitment tracking updates  
+- AI coaching insights  
 
 ---
 
-# Application Structure
+### Banking Experience
 
-| Page      | Purpose                                   |
-| --------- | ----------------------------------------- |
-| Dashboard | Financial overview & behavioural guidance |
-| Accounts  | Banking and FD management                 |
-| Insights  | Spending analytics & comparisons          |
-| AI Coach  | Personalized financial coaching           |
-| Settings  | User preferences & account settings       |
+Finora delivers a modern fintech interface with:
 
----
-
-# Behavioural Economics Integration
-
-Finora incorporates behavioural finance principles such as:
-
-* social norm nudging
-* commitment mechanisms
-* habit reinforcement
-* gamification
-* positive behavioural feedback
-* spending friction
-* savings encouragement
-* proactive risk intervention
+- glassmorphism design system  
+- mobile-first layout  
+- animated UI interactions  
+- transaction approval flows  
+- structured banking navigation  
 
 ---
 
-# Alignment with GXBank Youth Resilience Challenge
+## Technology Stack
 
-Finora directly addresses the challenge objectives through:
-
-* AI-powered financial guidance
-* behavioural nudges
-* automated savings encouragement
-* proactive debt prevention
-* gamified financial habit formation
-* personalized financial resilience strategies
-
----
-
-# Future Enhancements
-
-Planned future improvements include:
-
-* real banking API integration
-* DuitNow support
-* conversational AI chat
-* OCR receipt analysis
-* investment portfolio tracking
-* financial forecasting AI
-* student-specific financial plans
-* social accountability systems
-* rewards ecosystem
+| Technology | Purpose |
+|------------|--------|
+| Base44 | Application platform |
+| React | Frontend framework |
+| Tailwind CSS | Styling system |
+| Framer Motion | UI animations |
+| Recharts | Data visualisation |
+| Base44 Entities | Data persistence |
 
 ---
 
-# Team
+## Application Structure
 
-## No Sleep Till Demo
-
-Developed for the
-**UTM Hackathon 2026**
+| Module | Function |
+|--------|----------|
+| Dashboard | Financial overview and insights |
+| Accounts | Banking and FD management |
+| Insights | Spending analytics |
+| AI Coach | Behavioural financial guidance |
+| Settings | User preferences |
 
 ---
 
-# Vision
+## Behavioural Design Approach
 
-> Making financial resilience the default lifestyle for Malaysian youth.
+Finora applies behavioural economics principles including:
+
+- nudging for decision guidance  
+- commitment mechanisms  
+- gamification systems  
+- loss aversion triggers  
+- habit reinforcement loops  
+- social comparison effects  
+
+---
+
+## GXBank Challenge Alignment
+
+Finora directly supports the GXBank Youth Resilience Challenge by:
+
+- promoting proactive financial behaviour  
+- improving savings consistency  
+- reducing debt risk exposure  
+- applying AI-driven financial coaching  
+- encouraging long-term financial resilience  
+
+---
+
+## Future Enhancements
+
+- banking API integration  
+- DuitNow payment support  
+- AI conversational assistant  
+- receipt OCR scanning  
+- investment tracking module  
+- predictive financial planning  
+- social accountability features  
+- rewards ecosystem  
+
+---
+
+## Team
+
+No Sleep Till Demo  
+UTM Hackathon 2026 
+
+---
+
+## Vision
+
+Making financial resilience the default behaviour for Malaysian youth.
