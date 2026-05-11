@@ -12,10 +12,6 @@
   <img src="https://img.shields.io/badge/Focus-Behavioural%20Finance-purple?style=for-the-badge" />
 </p>
 
-<p align="center">
-  GXBank Youth Resilience Challenge Submission
-</p>
-
 ---
 
 ## Overview
