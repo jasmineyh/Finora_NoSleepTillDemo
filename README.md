@@ -1,7 +1,5 @@
 # Finora
 
-## No Sleep Till Demo
-
 ### AI-Powered Financial Resilience Platform for Malaysian Youth
 
 <p align="center">
@@ -333,7 +331,7 @@ Planned future improvements include:
 ## No Sleep Till Demo
 
 Developed for the
-**GXBank Youth Resilience Challenge Hackathon**
+**UTM Hackathon 2026**
 
 ---
 
