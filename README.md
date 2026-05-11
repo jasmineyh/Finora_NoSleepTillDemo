@@ -1,6 +1,14 @@
 # Finora
 
+## No Sleep Till Demo
+
 ### AI-Powered Financial Resilience Platform for Malaysian Youth
+
+<p align="center">
+  <strong style="font-size:18px; color:#a855f7;">
+    Built by No Sleep Till Demo
+  </strong>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Hackathon%20Prototype-success?style=for-the-badge" />
