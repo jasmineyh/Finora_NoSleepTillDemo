@@ -1,0 +1,53 @@
+{
+  "name": "DailyLimit",
+  "type": "object",
+  "properties": {
+    "category": {
+      "type": "string",
+      "enum": [
+        "food_delivery",
+        "shopping",
+        "entertainment",
+        "transport",
+        "subscriptions"
+      ]
+    },
+    "daily_limit": {
+      "type": "number"
+    },
+    "today_spent": {
+      "type": "number",
+      "default": 0
+    },
+    "last_reset_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "streak": {
+      "type": "number",
+      "default": 0
+    },
+    "active": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "category",
+    "daily_limit"
+  ],
+  "rls": {
+    "create": {
+      "created_by": "{{user.email}}"
+    },
+    "read": {
+      "created_by": "{{user.email}}"
+    },
+    "update": {
+      "created_by": "{{user.email}}"
+    },
+    "delete": {
+      "created_by": "{{user.email}}"
+    }
+  }
+}

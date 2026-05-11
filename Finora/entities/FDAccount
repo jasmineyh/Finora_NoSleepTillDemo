@@ -1,0 +1,59 @@
+{
+  "name": "FDAccount",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "number"
+    },
+    "rate": {
+      "type": "number"
+    },
+    "tenure_months": {
+      "type": "number"
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "maturity_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "matured",
+        "withdrawn"
+      ],
+      "default": "active"
+    },
+    "estimated_return": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "amount",
+    "rate",
+    "tenure_months",
+    "start_date",
+    "maturity_date"
+  ],
+  "rls": {
+    "create": {
+      "created_by": "{{user.email}}"
+    },
+    "read": {
+      "created_by": "{{user.email}}"
+    },
+    "update": {
+      "created_by": "{{user.email}}"
+    },
+    "delete": {
+      "created_by": "{{user.email}}"
+    }
+  }
+}

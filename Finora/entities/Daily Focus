@@ -1,0 +1,41 @@
+{
+  "name": "DailyFocus",
+  "type": "object",
+  "properties": {
+    "focus_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "focus_text": {
+      "type": "string"
+    },
+    "target_amount": {
+      "type": "number"
+    },
+    "tip_text": {
+      "type": "string"
+    },
+    "committed": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "required": [
+    "focus_date",
+    "focus_text"
+  ],
+  "rls": {
+    "create": {
+      "created_by": "{{user.email}}"
+    },
+    "read": {
+      "created_by": "{{user.email}}"
+    },
+    "update": {
+      "created_by": "{{user.email}}"
+    },
+    "delete": {
+      "created_by": "{{user.email}}"
+    }
+  }
+}

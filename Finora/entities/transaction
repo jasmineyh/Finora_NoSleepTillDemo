@@ -1,0 +1,52 @@
+{
+  "name": "Transaction",
+  "type": "object",
+  "properties": {
+    "merchant": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "food_delivery",
+        "transport",
+        "food_beverages",
+        "subscriptions",
+        "shopping",
+        "education",
+        "utilities",
+        "petrol",
+        "savings"
+      ]
+    },
+    "amount": {
+      "type": "number"
+    },
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "merchant",
+    "category",
+    "amount"
+  ],
+  "rls": {
+    "create": {
+      "created_by": "{{user.email}}"
+    },
+    "read": {
+      "created_by": "{{user.email}}"
+    },
+    "update": {
+      "created_by": "{{user.email}}"
+    },
+    "delete": {
+      "created_by": "{{user.email}}"
+    }
+  }
+}
