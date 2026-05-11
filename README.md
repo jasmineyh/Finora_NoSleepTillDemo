@@ -325,7 +325,7 @@ Planned future improvements include:
 ## No Sleep Till Demo
 
 Developed for the
-**GXBank Youth Resilience Challenge Hackathon**
+**UTM Hackathon 2026**
 
 ---
 
