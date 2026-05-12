@@ -1,0 +1,110 @@
+{
+  "name": "UserProfile",
+  "type": "object",
+  "properties": {
+    "username": {
+      "type": "string",
+      "description": "Unique username for bank-style login"
+    },
+    "full_name": {
+      "type": "string"
+    },
+    "security_image": {
+      "type": "string",
+      "enum": [
+        "tiger",
+        "moon",
+        "hibiscus",
+        "rocket",
+        "star",
+        "mountain",
+        "coffee",
+        "shield",
+        "diamond",
+        "lotus",
+        "wave",
+        "flame"
+      ],
+      "description": "Selected security image for verification"
+    },
+    "monthly_income": {
+      "type": "number"
+    },
+    "fixed_expenses": {
+      "type": "number"
+    },
+    "spending_habits": {
+      "type": "string",
+      "enum": [
+        "very_low",
+        "low",
+        "moderate",
+        "high",
+        "very_high"
+      ]
+    },
+    "savings_goal": {
+      "type": "number"
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "financial_confidence": {
+      "type": "string",
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ]
+    },
+    "financial_dna": {
+      "type": "string",
+      "enum": [
+        "spender",
+        "hoarder",
+        "avoider",
+        "planner"
+      ]
+    },
+    "saving_baseline_percent": {
+      "type": "number"
+    },
+    "survey_completed": {
+      "type": "boolean",
+      "default": false
+    },
+    "language": {
+      "type": "string",
+      "enum": [
+        "en",
+        "ms",
+        "zh"
+      ],
+      "default": "en"
+    },
+    "dark_mode": {
+      "type": "boolean",
+      "default": false
+    },
+    "notifications_enabled": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "required": [
+    "username"
+  ],
+  "rls": {
+    "create": {
+      "created_by": "{{user.email}}"
+    },
+    "delete": {
+      "created_by": "{{user.email}}"
+    }
+  }
+}

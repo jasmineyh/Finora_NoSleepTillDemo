@@ -1,0 +1,47 @@
+{
+  "name": "FinancialPlan",
+  "type": "object",
+  "properties": {
+    "needs_percent": {
+      "type": "number"
+    },
+    "wants_percent": {
+      "type": "number"
+    },
+    "savings_percent": {
+      "type": "number"
+    },
+    "monthly_saving_target": {
+      "type": "number"
+    },
+    "budget_breakdown": {
+      "type": "object",
+      "description": "Detailed budget allocation"
+    },
+    "fd_recommendation": {
+      "type": "string"
+    },
+    "financial_advice": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "nudges": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "health_score": {
+      "type": "number"
+    },
+    "risk_alerts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": []
+}
